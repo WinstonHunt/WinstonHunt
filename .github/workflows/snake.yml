@@ -12,7 +12,6 @@ on:
   push:
     branches:
     - main
-    - master
     
   
 
@@ -43,3 +42,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
